@@ -1,0 +1,132 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+.c_item {
+    padding: 90px 0;
+    text-align: center;
+    }
+    .c_item h1 {
+    
+    font-size: 35px;
+    
+    }
+    .c_item p {
+    margin: 25px 94px 25px 0;
+    text-align: center;
+    margin-right: 0;
+    }
+    .slider_indicators {
+    top: 91%;
+    
+    }
+    .c_prev {
+    
+    left: 82px;
+    
+    }
+    .c_next {
+    
+    right: 82px;
+    
+    }
+    .slider_indicators {
+    
+    left: 150px;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+ /* bannar start */
+ .c_item {
+    padding: 140px 0;
+}
+.c_item h1 {
+	font-size: 50px;
+}
+.slider_indicators {
+    top: 91%;
+}
+.gm ul {
+        margin-top: 23px;
+        margin-left: 70px;
+}
+.c_next {
+    right: 590px;
+
+}
+.footer-nav-div h4, .footer-nav-div .h4 {
+    /* color: #fff;
+    font-size: 20px;
+    margin-bottom: 30px; */
+    margin-left: 40px;
+    text-align: center;
+}
+.app-download-box {
+    margin-left: 73px;
+}
+/*contact start*/
+.c_form {
+    margin-top: 65px;
+    margin-bottom: 70px;
+}
+
+.author{
+    margin-top: 20px;
+}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.navmenu {
+    margin-left: 5px;
+}
+ /* bannar start */
+ .c_item {
+    padding: 140px 0;
+}
+.c_item h1 {
+    font-size: 50px;
+}
+.c_next {
+    right: 830px;
+}
+.imgwth{
+    width: 250px;
+    height: 220px;
+}
+.fmbt{
+    text-align: center;
+}
+.btn4{
+    width: 276px;
+}
+.fm{
+    width: 200px;
+}
+.team_content{
+    margin-top: 60px;
+}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+/* bannar start */
+.c_item {
+    padding: 140px 0;
+}
+.c_next {
+
+    right: 1008px;
+}
+
+}
+
+/*Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) and (max-width: 1919px) {
+
+}
